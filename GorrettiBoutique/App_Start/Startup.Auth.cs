@@ -50,19 +50,19 @@ namespace GorrettiBoutique
             //    clientId: "",
             //    clientSecret: "");
 
-            //app.UseTwitterAuthentication(
-            //   consumerKey: "",
-            //   consumerSecret: "");
+            app.UseTwitterAuthentication(
+               consumerKey: "SzUUwXulZB3aV99b7qgm1bHlB",
+               consumerSecret: "X2Jf0n1yOo1VxPOqLGgt57qmTs9chkWcArnnTaA3lfXTVASzzf");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "1351892601497284",
+               appSecret: "c43da475dbca10667f4964f4707f4b28");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "974090587895-op2ko5ofhsrca1ulqjebmf0n6m938h8q.apps.googleusercontent.com",
+                ClientSecret = "TeCiuZyZx-AKm5qQG2-VAzIJ"
+            });
         }
     }
 }
