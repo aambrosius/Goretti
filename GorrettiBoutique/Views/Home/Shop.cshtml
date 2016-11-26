@@ -8,13 +8,16 @@
 <div class="row">
     @foreach (var item in ViewBag.ShopInfo)
     {
-        <div class="col-md-3" style="background: rgba(211, 211, 211, 0.2); margin: 20px;">
-            <button style="background: transparent; border-color: transparent; text-align: center">
+        <div class="col-md-3" style="background: rgba(211, 211, 211, 0.2); padding: 20px; text-align: center">
+            <h4>@item.Title</h4>
+
+            <button style="background: transparent; border-color: transparent;">
                 <a href="/Home/Contact">
-                    <img src="@Url.Content(item.Image)" Height="135" Width="110" alt="@item.Image"/>
+                    <img src="@Url.Content(item.Image)" Height="150" Width="125" alt="@item.Image" />
                 </a>
             </button>
-            @*<h4>@item.Quantity</h4>*@
+
+            <h4>@item.Quantity</h4>
         </div>
         @*<div class="col-md-8">
                 <h4>@item.Title</h4>

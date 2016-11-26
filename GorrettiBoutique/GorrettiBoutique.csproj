@@ -235,9 +235,9 @@
     <Content Include="Images\Shop\Dice.jpg" />
     <Content Include="Images\Shop\dress.jpg" />
     <Content Include="Images\Shop\Mario.jpg" />
-    <Content Include="Images\Social Media\FacebookLogo.png" />
-    <Content Include="Images\Social Media\InstagramLogo.jpg" />
-    <Content Include="Images\Social Media\TwitterLogo.png" />
+    <Content Include="Images\SocialMedia\FacebookLogo.png" />
+    <Content Include="Images\SocialMedia\InstagramLogo.jpg" />
+    <Content Include="Images\SocialMedia\TwitterLogo.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.1.1.js" />
